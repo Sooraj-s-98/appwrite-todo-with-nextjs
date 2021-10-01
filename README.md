@@ -1,6 +1,6 @@
-# 🔖 Todo With NextJS
+# 🔖 Todo With NextJS  
 
-
+![logo]( public/image/built-with-appwrite.svg "Logo")
 A simple todo app built with Appwrite and Nextjs
 
 If you simply want to try out the App, go ahead and check out the demo at 

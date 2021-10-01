@@ -1,4 +1,4 @@
-# 🔖 Todo With React
+# 🔖 Todo With NextJS
 
 
 A simple todo app built with Appwrite and Nextjs

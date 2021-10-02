@@ -6,7 +6,6 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "test": "npx jest ./src",
     "lint-staged": "npx lint-staged",
     "lint": "npx eslint ./src"
   },

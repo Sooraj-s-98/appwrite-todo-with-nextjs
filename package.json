@@ -6,9 +6,6 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "test": "npm run test:node && npm run test:jsdom",
-    "test:node": "jest --config=config/jest.node.config.js",
-    "test:jsdom": "jest --config=config/jest.jsdom.config.js",
     "lint-staged": "npx lint-staged",
     "lint": "npx eslint ./src"
   },

@@ -3,7 +3,7 @@
 ![logo]( public/image/built-with-appwrite.svg "Logo")
 A simple todo app built with Appwrite and Nextjs
 
-If you simply want to try out the App, go ahead and check out the demo at 
+
 
 
 ## 🎬 Getting Started
@@ -22,8 +22,8 @@ We need to make a few configuration changes to your Appwrite server.
 Follow these instructions to run the demo app locally
 
 ```sh
-$ git clone https://github.com/sooraj-s-98/todo-with-nextjs
-$ cd todo-with-nextjs
+$ git clone https://github.com/Sooraj-s-98/appwrite-todo-with-nextjs
+$ cd appwrite-todo-with-nextjs
 ```
 
 Run the following command to generate your `.env` vars

@@ -1,6 +1,8 @@
 import React from 'react';
 import App from 'next/app';
 import Head from 'next/head';
+import 'tailwindcss/tailwind.css'
+import '../../public/css/homestyle.css'
 
 export default class MyApp extends App {
   componentDidMount() {
@@ -27,6 +29,7 @@ export default class MyApp extends App {
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
             as="font"
           />
+           <link rel="stylesheet" href="/css/homestyle.css"></link>
         </Head>
 
         <Component {...pageProps} />

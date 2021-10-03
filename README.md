@@ -26,13 +26,11 @@ $ git clone https://github.com/Sooraj-s-98/appwrite-todo-with-nextjs
 $ cd appwrite-todo-with-nextjs
 ```
 
-Run the following command to generate your `.env` vars
 
-```sh
-$ cp .env.example .env
-```
+Now fill your environment variables
 
-Now fill in the envrionment variables we discussed above in your `.env`
+![image](https://user-images.githubusercontent.com/52352285/135744323-a4b1a948-4011-4a39-abcd-63b58853555e.png)
+
 
 Now run the following commands and you should be good to go 💪🏼
 

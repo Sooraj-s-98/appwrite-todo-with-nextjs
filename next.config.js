@@ -3,8 +3,8 @@ module.exports = {
     webpack5: true,
   },
   env: {
-    REACT_APP_ENDPOINT: 'https://demo.appwrite.io/v1',
-    REACT_APP_PROJECT: '6062f9c2c09ce',
-    REACT_APP_COLLECTION_ID: '60631b201eec4',
+    REACT_APP_ENDPOINT: 'http://localhost:4000/v1',
+    REACT_APP_PROJECT: '61592488544e4',
+    REACT_APP_COLLECTION_ID: '615925aa9e94f',
   },
 };

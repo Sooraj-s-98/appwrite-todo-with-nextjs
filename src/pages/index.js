@@ -1,11 +1,19 @@
 import React from 'react';
-
+import Login from '../components/Login';
+import { useGetUser } from "../hooks";
 const Index = () => {
+
+  const [{ user, isLoading, isError }, dispatch] = useGetUser();
   return (
     <>
-      <div>hello</div>
+    <div>
+    {user ? user : "no"}
+      <Login dispatch={dispatch}/>
+    </div>
     </>
   );
 };
 
 export default Index;
+
+

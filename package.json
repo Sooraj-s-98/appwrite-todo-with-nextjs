@@ -9,15 +9,7 @@
     "lint-staged": "npx lint-staged",
     "lint": "npx eslint ./src"
   },
-  "lint-staged": {
-    "*.js": "npx eslint --fix"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint-staged",
-      "pre-push": "npm test"
-    }
-  },
+
   "jest": {
     "setupFilesAfterEnv": [
       "<rootDir>/test/setup.js"

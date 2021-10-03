@@ -7,7 +7,7 @@ const Index = () => {
   const [{ user, isLoading, isError }, dispatch] = useGetUser();
   return (
     <>
-    <div>
+       <div className="container d-flex align-items-center flex-column">
    
       <Login dispatch={dispatch}/>
     </div>

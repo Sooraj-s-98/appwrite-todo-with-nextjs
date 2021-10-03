@@ -24,9 +24,8 @@ const Login = ({ dispatch }) => {
     <SignUp setRegister={setRegister} dispatch={dispatch} />
   ) : (
       <>
-    <section className="">
-      <div className="">
-        <h1 className="">Login</h1>
+
+<h1 className="">Login</h1>
         <p className="mt-6">
           {" "}
           Don't have an account ?{" "}
@@ -37,32 +36,42 @@ const Login = ({ dispatch }) => {
             Sign Up
           </span>{" "}
         </p>
-        <form onSubmit={handleLogin}>
-          <label className=""> Email</label>
-          <input
-            className=""
-            type="text"
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          <label className="block mt-6"> Password</label>
-          <input
-            className=""
-            type="password"
-            onChange={(e) => setPassword(e.target.value)}
-          />
+      
 
-          <div className="mt-6">
-            <button
-              type="submit"
-              disabled={!email || !password}
-              className=""
-            >
-              Login
-            </button>
-          </div>
-        </form>
-      </div>
-    </section>
+    <div className="card col-12 col-lg-4 login-card mt-2 hv-center">
+        <form onSubmit={handleLogin}>
+                <div className="form-group text-left">
+                <label htmlFor="exampleInputEmail1">Email address</label>
+                <input type="email" 
+                       className="form-control" 
+                       id="email" 
+                       aria-describedby="emailHelp" 
+                       placeholder="Enter email"
+                       onChange={(e) => setEmail(e.target.value)}
+                />
+                <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div className="form-group text-left">
+                    <label htmlFor="exampleInputPassword1">Password</label>
+                    <input type="password" 
+                        className="form-control" 
+                        id="password" 
+                        placeholder="Password"
+                        onChange={(e) => setPassword(e.target.value)}
+                    />
+                </div>
+                <button 
+                    type="submit" 
+                    className="btn btn-primary"
+                    disabled={!email || !password}
+                >
+                       Login
+                </button>
+
+                </form>
+        </div>
+
+
     </>
   );
 };

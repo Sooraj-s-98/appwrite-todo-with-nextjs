@@ -69,6 +69,11 @@ $ npm install
 $ npm run dev
 ```
 
+## Screenshot 
+
+![image](https://user-images.githubusercontent.com/52352285/135747863-3c804f3f-54a7-4d91-92f6-0d4eb32ac61b.png)
+
+
 ## Thanks
 
 Glad to see here! Show some love by [starring](https://github.com/Sooraj-s-98/appwrite-todo-with-nextjs) this repository. 

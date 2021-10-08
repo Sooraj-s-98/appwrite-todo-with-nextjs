@@ -71,6 +71,9 @@ $ npm run dev
 
 ## Screenshot 
 
+![image](https://user-images.githubusercontent.com/52352285/135747618-c65c983c-6f7f-4870-94b5-63d455fbd817.png)
+
+
 ![image](https://user-images.githubusercontent.com/52352285/135747863-3c804f3f-54a7-4d91-92f6-0d4eb32ac61b.png)
 
 

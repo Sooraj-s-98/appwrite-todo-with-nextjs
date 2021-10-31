@@ -70,6 +70,7 @@ const SignUp = ({ setRegister, dispatch }) => {
                     type="submit" 
                     className="btn btn-primary"
                     disabled={!name || !email || !password}
+                    onClick={(e)=>handleSignup(e)}
                 >
                       Sign Up
                 </button>
